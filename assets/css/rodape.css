@@ -1,0 +1,14 @@
+footer {
+	display: block;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	background: #0A3871;
+}
+.logo-link {
+	height: 70px;
+	margin: 10px 5px 20px 5px;
+}
+.copyright {
+	color: #FFFFFF;
+}

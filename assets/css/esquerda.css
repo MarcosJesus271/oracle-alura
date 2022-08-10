@@ -1,0 +1,48 @@
+.logo {
+	width: 45px;
+	height: 45px;
+}
+#texto{
+	font-size: 20px;
+	border: 0;
+	outline: 0;
+	resize: none;
+	background: none;
+	box-shadow: none;
+	overflow: auto;
+}
+::-webkit-input-placeholder {
+	color: #0A3871;
+	font-size: 27px;
+	font-family: 'Inter', sans-serif;
+	}
+.alerta {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	opacity: 0.8;
+	color: #495057;
+}
+.botao {
+	border-radius: 24px;
+	font-size: 16px;
+	height: 3rem;
+}
+#cripto{
+	background:#0A3871;
+	color: #FFFFFF;
+	border: #0A3871;
+}
+#cripto:hover {
+	background: darkblue;	
+	transition-duration: 0.5s;
+}
+#descripto {
+	background: #FFFFFF;
+	color:#0A3871;
+	border: 1px solid #0A3871;
+}
+#descripto:hover {
+	background: #D8DFE8;
+	transition-duration: 0.5s;
+}

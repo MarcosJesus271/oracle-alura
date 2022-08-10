@@ -1,0 +1,59 @@
+.direita {
+	background: #FFFFFF;
+	border-radius: 32px;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+} 
+#valor{
+	box-shadow: none;
+	border: 0;
+	outline: 0;
+	resize: none;
+	background: none;
+	overflow: auto;
+}
+#fundo{
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+}
+#aviso-direita{
+	width: auto;
+	height: 58px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 120%;
+	text-align: center;
+}
+#sub-aviso{
+	width: auto;
+	height: 48px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #495057;
+}
+.botao-copiar{
+	width: 80%;
+	display: block;
+	margin: auto;
+	background:#0A3871;
+	color: #FFFFFF;
+	border: #0A3871;
+	border-radius: 20px;
+	width: 45%;
+	height: 3rem;
+}
+.botao-copiar:hover{
+	background: darkblue;
+}
+.botao-copiar.clicado{
+	background: darkblue;
+}
+#resultado{
+	display: none;
+}

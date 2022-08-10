@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/esquerda.css">
+    <link rel="stylesheet" href="assets/css/direita.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <a target="_blank" href="https://www.alura.com.br"><img src="assets/img/logo.svg" alt="logo Alura" class="logo" title="Ir para página da Alura"></a>
+    </header>
+    <div class="container">
+        <div class="esquerda">
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto" autofocus></textarea>
+            <p class="alerta">&#9432; Apenas letras minúsculas e sem acento.</p>
+            <div class="botao-div">
+                <button class="botao" id="cripto" onclick="cripto()">Criptografar</button>
+                <button class="botao" id="descripto" onclick="descripto()">Descriptografar</button>
+            </div>
+        </div>
+        <div class="direita">
+            <div id="div-inicial">
+                <img src="assets/img/fundo-padrao.svg" id="fundo">
+                <p id="aviso-direita">Nenhuma mensagem encontrada</p>
+                <p  id="sub-aviso">Digite um texto que você deseja <br> criptografar ou descriptografar</p>
+            </div>
+            <div id="resultado">
+                <textarea name="valor" cols="30" rows="10" id="valor"></textarea>
+                <button class="botao-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a target="_blank" href="https://www.linkedin.com/in/kayke-raypher/">
+            <img src="assets/img/linkedin_logo.svg" class="logo-link" alt="linkedin">
+        </a>
+        <a target="_blank" href="https://github.com/Raypher">
+            <img src="assets/img/github_logo.svg" class="logo-link" alt="github">
+        </a>
+        <p class="copyright">&copy; Desenvolvido por Marcos Jesus | 2022</p>
+    </footer>
+    <script src="assets/js/criptografar.js"></script>
+    <script src="assets/js/descriptografar.js"></script>
+    <script src="assets/js/botao-copiar.js"></script>
+</body>
+</html>

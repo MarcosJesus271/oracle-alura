@@ -1,0 +1,208 @@
+@media screen and (min-width: 0){
+    body{
+        background:  #E5E5E5;
+        font-family: 'Inter', sans-serif;
+        width: auto;
+    }
+    .container {
+        width: 320px;
+        display: block;
+        margin: auto;
+    } 
+    .logo{
+        padding: 15px;
+    }
+
+    /* Esquerda */
+
+    .esquerda {
+        float:none;
+        margin: 0;
+        width: 320px;
+    }
+    #texto{
+        width: 90%;
+        height: 200px;
+        margin: 50px 0 0 0;
+        padding: 0 16px 0 16px;
+    }
+    .alerta{
+        font-size: 14px;    
+        padding: 1rem;
+    }
+    .botao{
+        width: 80%;
+        display: block;
+        margin: auto auto 10px auto;
+    }
+        /* Direita */
+
+    .direita{
+        float: none;
+        display: block;
+        margin: 50px auto 50px auto;
+        width: 85%;
+        padding: 20px 10px 20px 10px;
+    }   
+    #fundo{
+        display: none;
+    }
+    #aviso-direita{
+        font-size: 20px;
+        font-style: bold;
+    }
+    #valor{
+        width: 100%;
+        font-size: 20px;
+    }
+    footer{
+        font-size: 14px;
+    }
+    .logo-link {
+        height: 50px;
+        width: 50px;
+        margin: 10px 5px 20px 5px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: auto;
+    }    
+    .logo{
+        padding: 40px;
+    }
+        /* Esquerda */
+
+    .esquerda {
+        float:none;
+        margin: 0;
+        width: 100%;
+    }
+    #texto{
+        width: 320px;
+        height: 600px;
+        margin-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .alerta{
+        font-size: 12px;    
+        padding-left: 2rem;
+        font-size: 15px;
+    }
+    .botao{
+        width: 325px;
+        height: 67px;
+        padding: 0;
+        margin: 0 20px 0 20px;
+    }
+    .botao-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        /* Direita */
+
+    .direita{
+        float: none;
+        width: 90%;
+        padding: 20px 0 20px 20px;
+    }   
+    #fundo{
+        display: none;
+    }
+    #aviso-direita{
+        display: block;
+        margin: auto;
+    }
+    #sub-aviso{
+        display: block;
+        margin: auto;
+    }
+    .logo-link{
+        width: 70px;
+        height: 70px;
+    }
+    footer{
+        width: auto;
+    }
+}
+@media screen and (min-width: 922px) {
+    .container {
+        width: 940px;
+        height: 600px;
+        display: block;
+        margin: auto;
+    }    
+    .logo {
+        display: initial;
+        padding: 30px 30px 10px 30px;
+    }
+    .logo:hover{
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+    .esquerda {
+        float: left;
+        width: 60%;
+        height: auto;
+    }
+    #texto{
+        height: 20em;
+        width: 100%;
+        margin: 30px 0px 0px 0px;
+        padding: 0;
+    }
+    .alerta {
+        font-size: 18px;
+        padding: 0.5rem;
+        opacity: 0.8;
+        color: #495057;
+    }
+    .botao {
+        width: 45%;
+        height: 3rem;
+        margin: 0px 15px 0 0;
+    }
+    .direita {
+        float: right;
+        width: 35%;
+        height: 85%;
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    #fundo{
+        display: block;
+        padding-top: 30%;
+    }
+    #valor{
+        display:block;
+        height: 19em;
+        width: 95%;
+        font-size: 20px;
+        margin: 40px 20px 10px 0px;
+        padding: 10px;
+    }
+    #aviso-direita{
+        width: auto;
+        height: 58px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        text-align: center;
+    }
+    .logo-link{
+        height: 70px;
+	    margin: 10px 5px 20px 5px;
+    }
+    .logo-link:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
+    footer{
+        height: auto;
+    }
+} 
